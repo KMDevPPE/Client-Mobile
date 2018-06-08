@@ -82,8 +82,7 @@ public class Resultat extends AppCompatActivity implements View.OnClickListener{
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-
-                                Toast.makeText(re, " Insertion reussie en BDD de votre réponse !", Toast.LENGTH_SHORT).show();
+                     Toast.makeText(re, " Insertion reussie en BDD de votre réponse !", Toast.LENGTH_SHORT).show();
                     }
                 });
             }

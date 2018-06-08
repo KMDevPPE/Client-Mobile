@@ -42,6 +42,8 @@ public class Enquete4 extends AppCompatActivity implements View.OnClickListener 
         Enquete.ajouterUneReponse(this.email,t,scoreT);
         Enquete.ajouterUneReponse(this.email,it,scoreIt);
 
+        // passer les données a une autre page
+
         Intent unIntent = new Intent(this, Resultat.class);
         unIntent.putExtra("email",this.email);
         this.startActivity(unIntent);
