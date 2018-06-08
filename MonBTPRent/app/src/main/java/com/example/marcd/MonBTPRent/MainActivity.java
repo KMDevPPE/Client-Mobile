@@ -135,7 +135,7 @@ class VerifConnexion extends AsyncTask<Client, Void, Client>
 
     @Override
     protected Client doInBackground(Client... clients) {
-        String url = "http://192.168.1.248/android/verifConnexion.php";
+        String url = "http://192.168.8.200/android/verifConnexion.php";
         String resultat = null ;
         Client unClient = clients[0];
         Client leClient = null;

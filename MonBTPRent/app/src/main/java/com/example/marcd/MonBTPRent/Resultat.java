@@ -110,7 +110,7 @@ class Insertion extends AsyncTask<String, Void, Void>
 
     @Override
     protected Void doInBackground(String... strings) {
-        String url = "http://192.168.1.248/android/insertReponse.php";
+        String url = "http://192.168.8.200/android/insertReponse.php";
         String resultat = null ;
         String chaine = strings[0];
 
