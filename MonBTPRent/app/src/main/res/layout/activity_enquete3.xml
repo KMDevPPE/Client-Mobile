@@ -11,6 +11,7 @@
         android:layout_width="321dp"
         android:layout_height="48dp"
         android:text="Enquete de satisfaction"
+        android:textColor="@color/colorGreen"
         android:textSize="26sp"
         tools:layout_editor_absoluteX="32dp"
         tools:layout_editor_absoluteY="0dp"
@@ -26,6 +27,7 @@
         android:layout_marginTop="64dp"
         android:text="Avez-vous solicité l'intervention d'un technicien ?"
         android:textAlignment="center"
+
         android:textSize="24sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -37,6 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:text="oui"
+        android:backgroundTint="@color/colorGreen"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -48,9 +51,22 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:text="non"
+        android:backgroundTint="@color/colorRed"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/idOui" />
+
+    <ImageView
+        android:id="@+id/Titre"
+        android:layout_width="294dp"
+        android:layout_height="80dp"
+        android:background="@drawable/btprentlogo"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/idSuivant2"
+        />
 
 </android.support.constraint.ConstraintLayout>
